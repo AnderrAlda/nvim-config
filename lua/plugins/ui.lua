@@ -44,6 +44,7 @@ return {
             { "<leader>fg", "<cmd>Telescope live_grep<CR>",   desc = "Buscar texto" },
             { "<leader>fb", "<cmd>Telescope buffers<CR>",     desc = "Buffers" },
             { "<leader>fd", "<cmd>Telescope diagnostics<CR>", desc = "Diagnósticos" },
+            { "<leader>fm", "<cmd>Telescope man_pages sections={'ALL'}<CR>", desc = "Buscar en man" },
         },
     },
 
